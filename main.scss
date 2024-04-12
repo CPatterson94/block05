@@ -1,0 +1,42 @@
+$mainColor: grey;
+html {
+  background-color: $mainColor;
+  min-height: 100%;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  box-sizing: border-box;
+  margin: auto;
+  text-decoration: underline;
+}
+body > img {
+  height: 200px;
+  width: 300px;
+  box-sizing: border-box;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+li {
+  justify-content: center;
+  margin: auto;
+}
+p {
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: darkgray;
+  padding: 3px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 15px;
+}

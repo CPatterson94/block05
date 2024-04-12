@@ -1,0 +1,33 @@
+nav {
+  background-color: grey;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: black;
+  /* Just for <a> tags */
+  text-decoration: none;
+  /* Just for <a> tags */
+  margin: 5px;
+}
+nav > div {
+  height: 100%;
+}
+nav img {
+  height: 100%;
+}
+#links {
+  box-sizing: border-box;
+  /* padding-top: 10px; */
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
